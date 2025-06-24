@@ -3,7 +3,6 @@ package main
 import (
 	"flag"
 	"fmt"
-	"io/ioutil"
 	"os"
 	"regexp"
 )
@@ -27,7 +26,7 @@ func main() {
 	}
 
 	// Read the file
-	content, err := ioutil.ReadFile(*filePath)
+	content, err := os.ReadFile(*filePath)
 	if err != nil {
 		fmt.Printf("Error reading file: %v\n", err)
 		os.Exit(1)
@@ -37,7 +36,7 @@ func main() {
 	newContent := removeEmojis(content)
 
 	// Write the modified content back to the file
-	if err := ioutil.WriteFile(*filePath, newContent, 0644); err != nil {
+	if err := os.WriteFile(*filePath, newContent, 0644); err != nil {
 		fmt.Printf("Error writing to file: %v\n", err)
 		os.Exit(1)
 	}
