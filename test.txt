@@ -1,0 +1,5 @@
+Hello world!  This is a test file. 
+Here are some more emojis: , , and .
+Let's see if the tool can remove them all.
+This line has no emojis.
+End of file. 
