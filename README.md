@@ -2,8 +2,8 @@
 
 A simple, fast, and powerful command-line tool to find and remove emojis from your codebases.
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/user/emoji-remover)](https://goreportcard.com/report/github.com/user/emoji-remover)
-[![Go CI](https://github.com/user/emoji-remover/actions/workflows/go.yml/badge.svg)](https://github.com/user/emoji-remover/actions/workflows/go.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/sway4em/emoji-remover)](https://goreportcard.com/report/github.com/sway4em/emoji-remover)
+[![Go CI](https://github.com/sway4em/emoji-remover/actions/workflows/go.yml/badge.svg)](https://github.com/sway4em/emoji-remover/actions/workflows/go.yml)
 
 The problem it's trying to solve is that AI-generated code from tools like Cursor often has emojis in it, which makes it obvious that it was AI-generated and can look unprofessional. This tool helps you maintain a clean, professional, and emoji-free codebase.
 
@@ -14,12 +14,12 @@ The problem it's trying to solve is that AI-generated code from tools like Curso
 If you have Go installed, you can install `emoji-remover` with a single command:
 
 ```sh
-go install github.com/user/emoji-remover@latest
+go install github.com/sway4em/emoji-remover@latest
 ```
 
 ### From GitHub Releases (for macOS, Linux, Windows)
 
-You can also download a pre-compiled binary for your operating system from the [latest GitHub release](https://github.com/user/emoji-remover/releases/latest).
+You can also download a pre-compiled binary for your operating system from the [latest GitHub release](https://github.com/sway4em/emoji-remover/releases/latest).
 
 ### With Homebrew (Coming Soon)
 
